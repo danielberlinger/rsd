@@ -44,20 +44,32 @@ A *"best practice"* location that represents the location where clients can try 
 <th>Description</th>
 </tr>
 <tr>
-<td>
-<code>&lt;rsd&gt;</code>
-</td>
-<td>
-RSD document root element
-</td>
+<td><code>&lt;rsd&gt;</code></td>
+<td>RSD document root element</td>
 </tr>
 <tr>
-<td>
-<code>&lt;service&gt;</code>
-</td>
-<td>
-Container element. The RSD document can contain one or more service elements.
-</td>
+<td><code>&lt;service&gt;</code></td>
+<td>Container element. The RSD document can contain one or more service elements.</td>
+</tr>
+<tr>
+<td><code>&lt;service&gt;</code></td>
+<td>Container element. The RSD document can contain one or more service elements.</td>
+</tr>
+<tr>
+<td><code>&lt;engineName&gt;</code></td>
+<td>A string that is the name of the engine that is providing the services being described.</td>
+</tr>
+<tr>
+<td><code>&lt;engineLink&gt;</code></td>
+<td>The URL to the home of the engine.</td>
+</tr>
+<tr>
+<td><code>&lt;homePageLink&gt;</code></td>
+<td>The URL of the users homepage.</td>
+</tr>
+<tr>
+<td><code>&lt;api&gt;</code></td>
+<td>Container element. The service element can contain one or more api elements.</td>
 </tr>
 </table>
 
