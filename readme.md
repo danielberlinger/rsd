@@ -92,7 +92,7 @@ A *"best practice"* location that represents the location where clients can try 
 </tr>
 <tr>
 <td>preferred</td>
-<td>A boolean; either **true** or **false**. Only a single api element should be listed as preferred for a given service element.</td>
+<td>A boolean; either <i>true</i> or <i>false</i>. Only a single api element should be listed as preferred for a given service element.</td>
 </tr>
 <tr>
 <td>apiLink</td>
@@ -100,7 +100,7 @@ A *"best practice"* location that represents the location where clients can try 
 </tr>
 <tr>
 <td>blogID</td>
-<td>A common bit of data that most APIs currently require. If you system doesn't require it, then include the attribute but with a blank value: `blogID=""`</td>
+<td>A common bit of data that most APIs currently require. If you system doesn't require it, then include the attribute but with a blank value: <code>blogID=""</code></td>
 </tr>
 </table>
 
