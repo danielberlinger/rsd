@@ -45,7 +45,7 @@ A *"best practice"* location that represents the location where clients can try 
 </tr>
 <tr>
 <td>
-`&lt;rsd&gt;`
+<code>&lt;rsd&gt;</code>
 </td>
 <td>
 RSD document root element
@@ -53,7 +53,7 @@ RSD document root element
 </tr>
 <tr>
 <td>
-`&lt;service&gt;`
+<code>&lt;service&gt;</code>
 </td>
 <td>
 Container element. The RSD document can contain one or more service elements.
