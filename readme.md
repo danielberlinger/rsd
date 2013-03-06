@@ -10,6 +10,13 @@ Thu, Oct 31, 2002; by Daniel Berlinger (@danielberlinger):
 
 **The goal is simple. To reduce the information required to UserName, Password, and homepage URL.**
 
+## Table of Contents
+
+* [The Problem](#the-problem)
+* [Proposed Solution](#proposed-solution)
+* [Elements](#elements)
+* [Copyright & Disclaimer](#copyright--disclaimer)
+
 ## The Problem
 
 Communicating with services requires knowledge about the service whereabouts and settings.
@@ -70,6 +77,30 @@ A *"best practice"* location that represents the location where clients can try 
 <tr>
 <td><code>&lt;api&gt;</code></td>
 <td>Container element. The service element can contain one or more api elements.</td>
+</tr>
+</table>
+
+**Required** attributes of the `<api>` element are:
+<table>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>name</td>
+<td>A string that is the name of the API.</td>
+</tr>
+<tr>
+<td>preferred</td>
+<td>A boolean; either **true** or **false**. Only a single api element should be listed as preferred for a given service element.</td>
+</tr>
+<tr>
+<td>apiLink</td>
+<td>A string that is the URL of this API.</td>
+</tr>
+<tr>
+<td>blogID</td>
+<td>A common bit of data that most APIs currently require. If you system doesn't require it, then include the attribute but with a blank value: `blogID=""`</td>
 </tr>
 </table>
 
