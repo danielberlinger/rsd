@@ -121,7 +121,7 @@ The RSD document specification consists of the following XML element structure:
 </tr>
 <tr>
 <td>setting</td>
-<td>Requires a single attribute <code>name</code: a string which refers to the service-specific setting. The value is the service setting. Multiple setting elements are allowed.</td>
+<td>Requires a single attribute <code>name</code>: a string which refers to the service-specific setting. The value is the service setting. Multiple setting elements are allowed.</td>
 </tr>
 </table>
 
