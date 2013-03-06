@@ -15,6 +15,7 @@ Thu, Oct 31, 2002; by Daniel Berlinger (@danielberlinger):
 * [The Problem](#the-problem)
 * [Proposed Solution](#proposed-solution)
 * [Elements](#elements)
+* [Example RSD Document](#example-rsd-document)
 * [Copyright & Disclaimer](#copyright--disclaimer)
 
 ## The Problem
@@ -125,6 +126,33 @@ The RSD document specification consists of the following XML element structure:
 </tr>
 </table>
 
+## Example RSD Document
+
+```xml
+<?xml version="1.0" ?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd" >
+    <service>
+        <engineName>Blog Munging CMS</engineName> 
+        <engineLink>http://www.blogmunging.com/ </engineLink>
+        <homePageLink>http://www.userdomain.com/ </homePageLink>
+        <apis>
+                <api name="MetaWeblog" preferred="true" apiLink="http://example.com/xml/rpc/url" blogID="123abc" />
+                <api name="Blogger" preferred="false" apiLink="http://example.com/xml/rpc/url" blogID="123abc" />
+                <api name="MetaWiki" preferred="false" apiLink="http://example.com/some/other/url" blogID="123abc" />
+                <api name="Antville" preferred="false" apiLink="http://example.com/yet/another/url" blogID="123abc" />
+                <api name="Conversant" preferred="false" apiLink="http://example.com/xml/rpc/url" blogID="">
+                    <settings>
+                        <docs>http://www.conversant.com/docs/api/ </docs> 
+                        <notes>Additional explanation here.</notes>
+                        <setting name="service-specific-setting">a value</setting> 
+                        <setting name="another-setting">another value</setting> 
+                         ... 
+                    </settings>
+                 </api>
+        </apis>
+    </service>
+</rsd>
+```
 
 ## Copyright & Disclaimer
 
