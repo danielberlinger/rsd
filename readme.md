@@ -45,6 +45,7 @@ A *"best practice"* location that represents the location where clients can try 
 
 ## Elements
 
+The RSD document specification consists of the following XML element structure:
 <table>
 <tr>
 <th>Element</th>
@@ -103,6 +104,27 @@ A *"best practice"* location that represents the location where clients can try 
 <td>A common bit of data that most APIs currently require. If you system doesn't require it, then include the attribute but with a blank value: <code>blogID=""</code></td>
 </tr>
 </table>
+
+**Optional** sub-elements of the `<api>` element are:
+<table>
+<tr>
+<th>Element</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>docs</td>
+<td>A string that is the URL pointing to the documentation of this API.</td>
+</tr>
+<tr>
+<td>notes</td>
+<td>Text that is used to explain features and their settings. It is supposed to be human readable.</td>
+</tr>
+<tr>
+<td>setting</td>
+<td>Requires a single attribute <code>name</code: a string which refers to the service-specific setting. The value is the service setting. Multiple setting elements are allowed.</td>
+</tr>
+</table>
+
 
 ## Copyright & Disclaimer
 
