@@ -154,6 +154,12 @@ The RSD document specification consists of the following XML element structure:
 </rsd>
 ```
 
+## Extending RSD
+
+Developers are welcome to extend RSD using modules defined in namespaces, as [defined by the W3C](http://www.w3.org/TR/REC-xml-names/).
+A RSD feed may contain elements not described on this page, only if those elements are defined in a namespace. 
+All core RSD elements are defined in a namespace.
+
 ## Copyright & Disclaimer
 
 © Copyright 2002 Circumstance Technology. All Rights Reserved. This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and these paragraphs are included on all such copies and derivative works.
