@@ -38,7 +38,28 @@ A *"best practice"* location that represents the location where clients can try 
 
 ## Elements
 
-todo
+<table>
+<tr>
+<th>Element</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+`<rsd>`
+</td>
+<td>
+RSD document root element
+</td>
+</tr>
+<tr>
+<td>
+`<service>`
+</td>
+<td>
+Container element. The RSD document can contain one or more service elements.
+</td>
+</tr>
+</table>
 
 ## Copyright & Disclaimer
 
