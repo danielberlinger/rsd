@@ -61,10 +61,6 @@ The RSD document specification consists of the following XML element structure:
 <td>Container element. The RSD document can contain one or more service elements.</td>
 </tr>
 <tr>
-<td><code>&lt;service&gt;</code></td>
-<td>Container element. The RSD document can contain one or more service elements.</td>
-</tr>
-<tr>
 <td><code>&lt;engineName&gt;</code></td>
 <td>A string that is the name of the engine that is providing the services being described.</td>
 </tr>
