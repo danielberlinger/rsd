@@ -5,7 +5,7 @@ Link to original RFC: [Really Simple Discoverability 1.0.0](http://archipelago.p
 Thu, Oct 31, 2002; by Daniel Berlinger (@danielberlinger):
 > Really Simple Discoverability is a way to help client software find the services needed to read, edit, or "work with" weblogging software. 
 > Although I talk about weblogging software, there's no reason this format can't apply to other forms of web client/system software that I wasn't considering, or may not even exist as of this writing. 
-> This format is simple but flexible. One of the deisgn goals was to ensure that it would be human writeable. 
+> This format is simple but flexible. One of the design goals was to ensure that it would be human writeable. 
 > This was my "test" for ensuring that the format was easy for everyone to implement.
 
 **The goal is simple. To reduce the information required to UserName, Password, and homepage URL.**
